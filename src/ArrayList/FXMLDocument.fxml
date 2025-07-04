@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ArrayList.FXMLDocumentController">
+   <children>
+      <Label layoutX="275.0" layoutY="28.0" prefHeight="31.0" prefWidth="91.0" text="Array List" textAlignment="CENTER" />
+      <Button layoutX="75.0" layoutY="229.0" mnemonicParsing="false" onAction="#tambahData" text="ADD" />
+      <Button layoutX="194.0" layoutY="229.0" mnemonicParsing="false" onAction="#editData" text="EDIT" />
+      <Button layoutX="387.0" layoutY="229.0" mnemonicParsing="false" onAction="#hapusData" text="DELETE" />
+      <Button layoutX="76.0" layoutY="304.0" mnemonicParsing="false" onAction="#clearData" prefHeight="30.0" prefWidth="376.0" text="Clear All" />
+      <TextField fx:id="tfHasil" layoutX="113.0" layoutY="85.0" prefHeight="26.0" prefWidth="394.0" />
+      <TextField fx:id="tfIndex" layoutX="115.0" layoutY="134.0" prefHeight="26.0" prefWidth="165.0" />
+      <TextField fx:id="tfValue" layoutX="311.0" layoutY="134.0" prefHeight="26.0" prefWidth="195.0" />
+   </children>
+</AnchorPane>
